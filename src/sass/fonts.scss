@@ -1,17 +1,21 @@
 /* Open Sans - Regular 400 */
 
 @font-face {
-  font-family: 'Open Sans', sans-serif;
-  src: url(../fonts/OpenSans-Regular.ttf) format('ttf');
+  font-family: "OpenSans-Regular";
+
+  src: url("../fonts/OpenSans-Regular.woff") format("woff");
+
+  font-weight: normal;
   font-style: normal;
-  font-weight: 400;
 }
 
 /* PT Sans - Regular 400 */
 
 @font-face {
-  font-family: 'PT Sans';
-  src: url(../fonts/PTSans-Regular.ttf) format('ttf');
+  font-family: "PTSans-Regular";
+
+  src: url("../fonts/PTSans-Regular.woff") format("woff");
+
+  font-weight: normal;
   font-style: normal;
-  font-weight: 400;
 }
