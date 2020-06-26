@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4bf390ce3095db779bbc5fd8a0415c64",
+    "revision": "f28baaebbef0786f0f761e479df3ddcc",
     "url": "/testabz/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/testabz/static/css/AboutMe.f35ecd40.chunk.css"
   },
   {
-    "revision": "ce21ef86814df54ea471",
-    "url": "/testabz/static/css/main.ce3ca4ba.chunk.css"
+    "revision": "06a835b587e76563b547",
+    "url": "/testabz/static/css/main.bc122030.chunk.css"
   },
   {
     "revision": "e6c6f4be078a8d280b39",
@@ -60,7 +60,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/testabz/static/js/Users.2d84fa94.chunk.js"
   },
   {
-    "revision": "ce21ef86814df54ea471",
+    "revision": "06a835b587e76563b547",
     "url": "/testabz/static/js/main.2d7adeb6.chunk.js"
   },
   {
@@ -68,12 +68,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/testabz/static/js/runtime-main.5617cdc0.js"
   },
   {
-    "revision": "3ed9575dcc488c3e3a5bd66620bdf5a4",
-    "url": "/testabz/static/media/OpenSans-Regular.3ed9575d.ttf"
+    "revision": "6a258acda8a5b8f041cc9efd3a7b480a",
+    "url": "/testabz/static/media/OpenSans-Regular.6a258acd.woff"
   },
   {
-    "revision": "4ea26cd5e7f64894d6c2451446f7dda5",
-    "url": "/testabz/static/media/PTSans-Regular.4ea26cd5.ttf"
+    "revision": "696431ac6af96fd0b5c053ff96512215",
+    "url": "/testabz/static/media/PTSans-Regular.696431ac.woff"
   },
   {
     "revision": "9296a21eab7af1c300a098fa206ad056",
