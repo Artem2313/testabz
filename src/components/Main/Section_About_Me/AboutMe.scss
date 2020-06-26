@@ -1,0 +1,100 @@
+.aboutme {
+  background-image: url(../../../assets/banner-photo.jpg);
+  height: 600px;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  &__container {
+    box-sizing: border-box;
+    max-width: 520px;
+    height: 68%;
+    margin: 0 0 0 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    color: #ffffff;
+    text-align: justify;
+
+    h1 {
+      text-align: left;
+
+      @media (max-width: 767px) {
+        text-align: center;
+      }
+    }
+
+    p {
+      padding-top: 5px;
+      padding-bottom: 12px;
+    }
+
+    @media (max-width: 1023px) {
+
+      height: 80%;
+      max-width: 460px;
+
+      p {
+        padding-top: 7px;
+        padding-bottom: 15px;
+      }
+    }
+
+    @media (max-width: 767px) {
+
+      height: 100%;
+      margin: 0 auto;
+      padding: 0 20px 0 20px;
+
+
+    }
+
+  }
+
+  &__button {
+    margin: 0;
+    margin-bottom: 9px;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  @media (max-width: 1023px) {
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+
+
+  }
+
+  @media (max-width: 767px) {
+    background-position: center;
+    height: 400px;
+
+    .aboutme {
+
+      &__container {
+        align-items: center;
+        text-align: center;
+        height: 70%;
+      }
+    }
+
+    .mobile {
+      display: block;
+    }
+
+    .desktop {
+      display: none;
+    }
+
+  }
+
+
+}

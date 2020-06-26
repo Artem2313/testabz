@@ -1,0 +1,59 @@
+.backdrop__modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  max-width: 360px;
+  width: 100%;
+  min-height: 160px;
+  background-color: $background-color;
+  border-radius: 2%;
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid #beb7b7;
+
+  &__inner {
+    border-bottom: 1px solid #f3f4f6;
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+    padding: 10px;
+  }
+
+
+  &__body {
+    margin-left: 0;
+    color: #7b7a7a;
+  }
+
+  &__button {
+    margin-right: 0;
+    padding: 10px 20px;
+  }
+
+  &__x {
+    padding: 0;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #7b7b7b;
+    background-color: #ffff;
+    border-radius: none;
+    box-shadow: none;
+
+    &:hover {
+      background-color: #ffff;
+      color: $primary-color;
+      border: none;
+      box-shadow: none;
+    }
+  }
+
+  :last-child {
+    border-bottom: none;
+  }
+
+
+
+}

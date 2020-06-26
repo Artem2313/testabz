@@ -1,0 +1,12 @@
+{
+  "successMessage": {
+    "title": "Congratulations",
+    "body": "You have successfully passed registration",
+    "button": "Great"
+  },
+  "failMessage": {
+    "title": "Ooops",
+    "body": "Something went wrong, try again later!",
+    "button": "Ok"
+  }
+}

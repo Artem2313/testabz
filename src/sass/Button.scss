@@ -1,0 +1,26 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background-color: $primary-color;
+  border: 0;
+  outline: 0;
+  padding: 10px 62px;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0px 2px 1px 1px rgba(0, 0, 0, 0.05);
+  font: inherit;
+  user-select: none;
+
+
+
+  &:hover {
+    box-shadow: 0px 2px 1px 1px rgba(0, 0, 0, 0.15);
+    background-color: #D24335;
+  }
+
+  &:disabled {
+    background-color: grey;
+  }
+}

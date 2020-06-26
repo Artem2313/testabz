@@ -1,0 +1,88 @@
+.users-section {
+
+  padding-bottom: 150px;
+
+
+
+  @media (max-width: 768px) {
+    padding-top: 150px;
+  }
+
+  &__container {
+    padding: 75px 30px;
+    background-color: $background-color-2;
+    display: flex;
+    flex-wrap: wrap;
+
+    @media (min-width: 768px) {
+      padding: 75px 16px;
+
+
+    }
+
+  }
+
+  &__header {
+    text-align: center;
+    padding-bottom: 76px;
+
+    h1 {
+      padding-bottom: 15px;
+    }
+
+
+  }
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    justify-content: space-around;
+
+
+  }
+
+  &__profile-card {
+    padding-bottom: 30px;
+    width: 100%;
+
+
+    @media (min-width: 768px) {
+      width: 30%;
+
+      h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+
+      p {
+        font-size: 16px;
+        color: #4c4b4b;
+      }
+    }
+  }
+
+  &__user-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    max-width: 210px;
+
+  }
+
+  &__user-image {
+    height: 71px;
+    width: 71px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 15px;
+    border-radius: 50%;
+  }
+
+  p {
+    padding: 5px 0;
+  }
+}
