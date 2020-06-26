@@ -1,0 +1,1 @@
+{"version":3,"sources":["components/Footer/Footer.js"],"names":["Footer"],"mappings":"mGAAA,2BAQeA,UANA,kBACb,gCACE","file":"static/js/Footer.70a94b87.chunk.js","sourcesContent":["import React from 'react';\n\nconst Footer = () => (\n  <footer>\n    <p>© abz.agency specially for the test task</p>\n  </footer>\n);\n\nexport default Footer;\n"],"sourceRoot":""}
